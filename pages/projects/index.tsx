@@ -67,7 +67,7 @@ export default function Projects() {
                 placeholder="Search"
                 radius="xl"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e : any) => setQuery(e.target.value)}
               />
             </div>
           </div>
