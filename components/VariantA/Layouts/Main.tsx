@@ -7,7 +7,7 @@ export default function Main(props: any) {
     <>
       <NavigationHeader />
       <SideBar>
-        <div className="mt-20 min-h-screen max-w-screen-2xl mx-auto bg-gray-50">{props.children}</div>
+        <div className="mt-20 min-h-screen max-w-screen-2xl mx-auto ">{props.children}</div>
       </SideBar>
     </>
   );
