@@ -1,11 +1,11 @@
 import { Welcome } from '../components/Welcome/Welcome';
 import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { HeaderAction } from '../components/VariantA/Layouts/NavHeader';
+import NavigationHeader from '../components/VariantA/Layouts/Header';
 
 export default function HomePage() {
   return (
     <>
-    <HeaderAction />
+    <NavigationHeader />
       <Welcome />
       <ColorSchemeToggle />
     </>
