@@ -114,7 +114,7 @@ export default function SideBar(props: any) {
           </ul>
         </div>
       </aside>
-      <div className="p-4 border sm:ml-64">{props.children}</div>s
+      <div className="p-4 sm:ml-64">{props.children}</div>
     </div>
   );
 }
